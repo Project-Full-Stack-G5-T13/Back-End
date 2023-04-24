@@ -16,8 +16,6 @@ const listUniqueUserService = async (id: string) => {
 		},
 	});
 
-	console.log(user);
-
 	const validatedData = await userCompleteResponseSerializer.validate(user, {
 		stripUnknown: true,
 	});
