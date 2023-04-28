@@ -8,6 +8,7 @@ import {
 	userResponseSerializer,
 	userWithAddressResponseSerializer,
 } from "../../serializers/users/user.serializer";
+console.log("teste");
 
 export const updateUserService = async (
 	userId: string,
