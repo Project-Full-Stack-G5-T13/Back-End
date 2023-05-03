@@ -12,7 +12,7 @@ export interface IAdsCreateRequest {
 	images: {
 		main_image: string;
 		image_one: string;
-		image_two: string;
+		image_two?: string;
 		image_three?: string;
 		image_four?: string;
 		image_five?: string;
@@ -58,7 +58,7 @@ export interface IAdsResponse {
 		id: string;
 		main_image: string;
 		image_one: string;
-		image_two: string;
+		image_two?: string | null;
 		image_three?: string | null;
 		image_four?: string | null;
 		image_five?: string | null;
@@ -87,7 +87,7 @@ export interface IUniqueAds {
 		id: string;
 		main_image: string;
 		image_one: string;
-		image_two: string;
+		image_two?: string | null;
 		image_three?: string | null;
 		image_four?: string | null;
 		image_five?: string | null;

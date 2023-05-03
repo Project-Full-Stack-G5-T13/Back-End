@@ -32,7 +32,7 @@ export const createAdsService = async ({
 		data: {
 			main_image: images.main_image,
 			image_one: images.image_one,
-			image_two: images.image_two,
+			image_two: images.image_two ? images.image_three : "",
 			image_three: images.image_three ? images.image_three : "",
 			image_four: images.image_four ? images.image_four : "",
 			image_five: images.image_five ? images.image_five : "",

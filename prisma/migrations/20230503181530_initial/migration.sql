@@ -64,7 +64,7 @@ CREATE TABLE "Image" (
     "id" TEXT NOT NULL,
     "main_image" VARCHAR(255) NOT NULL,
     "image_one" VARCHAR(255) NOT NULL,
-    "image_two" VARCHAR(255) NOT NULL,
+    "image_two" VARCHAR(255),
     "image_three" VARCHAR(255),
     "image_four" VARCHAR(255),
     "image_five" VARCHAR(255),
